@@ -1,0 +1,5 @@
+setTimeout allows you set an interval of time for your code to work for example see lines 1 -6. You can tell your code to wait a certain
+    amout of seconds before executing another part of your code. 
+
+setInterval allows you do pretty much the same thing as setTimeout except it will run continously unless you use clearInterval. Please 
+see line 9 -13. 

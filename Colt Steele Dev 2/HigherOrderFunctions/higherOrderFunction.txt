@@ -1,0 +1,8 @@
+Higher Order Functions – Functions that operate on/with other functions. 
+    They can:
+	    accept other functions as arguments
+	    Return a function. 
+    Refer to lines 55 -68. Simply put it's just functions that work together with other functions. 
+
+    For returning a function please refer to line 71 -82. It allows you to create a general function that you can edit or use based on
+    the variable you are defining. You can use the 'boilerplate' function and edit it based on your variable demands. 

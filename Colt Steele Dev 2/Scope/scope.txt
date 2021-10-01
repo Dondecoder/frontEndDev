@@ -1,0 +1,12 @@
+Function Scope based on where a variable is defined will determine the output of the equations. For example lines 61 - 64 you use the
+same variable name to define two different variable. One of the variable is inside ths cope of the function and the other is a global
+variable. When you call the function the variable assignment inside the function will run first but if not typically the global function 
+would usually run first.If you define a variable inside the function it is scoped to that function
+
+Block scope includes contional and loops typically what's inside the curly braces. Instead of dealing with a function they are 
+defined in that block between the curly braces. In this case we are talking about conditionals and loops. Please refer 
+to line 68 - 73
+
+Lexical Scoping this means if we have some outerscoping and some inner function defined in it. In order to use the function that you 
+created you need call the inner function that is  nested inside the parent function. Please see line 75 - 82. An inner function has 
+access to the same function as it's parent. 

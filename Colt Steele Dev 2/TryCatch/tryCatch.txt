@@ -1,0 +1,2 @@
+Try Catch allows you to avoide stopping your code by allowing you to try a code without stopping the code. You can give a function to 
+catch. Please see line 11 -17. 

@@ -1,0 +1,15 @@
+Method is a function that has been placed as a property on an object. If we access a function by putting a dot infornt of its name it's
+a method but it's also a function 
+    You can also use a short hand to define your functions within an object. You don't need to include the function keyword you can
+    leave it off when defining the function inside the object. Please refer to line 1 - 9. Please refer to exercise you completer from
+    line 11 - 19. 
+
+As in (this) method allows you to refer to an key within you object by using this. For example line 21 -28 allows you to use this to refer to 
+the name element in the cat object. You can use this for name, color, breed etc in this example. To call the function of meow. You would
+write cat.meow(). A main thing to remember with this is that it changes when applied to a function assigned to a variable. The value of 
+this depends on the invocation context of the function it is used in. For example in line 30 you use meow2 to capture the function of 
+cat.meow but it will not execute the same way cat.meow does because the this method will be reassigned to pull from the window method of
+meow2 rather than the cat method. To make more sense of it every function is usually assigned to the windows method. if you were to type
+in windows() it will have a whole lot of functions. when ever you assign a function it is added to the windows method. due to the fact 
+that meow2 does not have anything in front of it when the function is called the this method defaults to refering to windows rather than 
+the cat object. If confused review section 21 lecture 217. 

@@ -1,0 +1,4 @@
+Filter 
+    Creates a new array with all elements tat pass the test implement by the provided function. Filter is useful when trying to sort even
+    numbers or odd numbers or setting up array from highest to lowest or lowest to highest. Please see line 8 - 65. It allows you to
+    sort the movie. It will use the information in the array to form a new array with the filtrered results. 

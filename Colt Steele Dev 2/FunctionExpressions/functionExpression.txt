@@ -1,0 +1,3 @@
+Function Expressions you can store functions inside of variables and use the variables to represent functions. See line 5 -7. The
+variable will work in the same way as a normal function except due to assigning the function to the variable you do not need to wrap
+the variable in the function keyword. Also refer to lines 9 -10 for further assistance. 
