@@ -1,0 +1,9 @@
+.every pretty much returns a boolean value of turue or false if all numbers in the array meet the condition that is set, for example
+    lines 1 - 3 show that if all exam scores in the array are higher than 75 then the value returned will be true. If even one exam 
+    score was less then 75 the boolean value would be false
+
+.some returns a boolean value if even one of the values in the array meet the condition. For example in lines 5 -54. The condition 
+    is asking if any movie year is greater than 2015. Since not one movie year is greater than 2015 it would return false. If one movie
+    year was greater than 2015 then the value would be changed to true. Consult the mdn docs for more info
+
+    Check out your challenging solution you figured out for coding exercise 50. It is on line 56 - 64. Check it out. 
