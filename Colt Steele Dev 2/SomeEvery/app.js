@@ -52,3 +52,14 @@ const movies = [
 
 
 movies.some(movie => movie.year > 2015)
+
+
+function allEvens (nums) {
+    if (nums.every(num => num % 2 === 0)) {
+    
+        return true;
+    }
+    else {
+        return false;
+    }
+    }
