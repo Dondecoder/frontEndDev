@@ -1,0 +1,2 @@
+Default Params allow to add a default function to some paramaters that are set for a function. For example please see lines 15 -20 for assistance. It simply shows that a value 
+  can be added to a parameter of a function as a default value incase an object is not placed where the parameter is suppose to be. 
