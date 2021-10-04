@@ -1,0 +1,11 @@
+Spread
+  Spread syntax allows an iterable such as an array to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, 
+  ora an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected. Sread allows us to access each individual items in
+  an array. For example please see line 1 - 4. You use elipsis to represent the spread fucntion.
+  
+  Array literal
+    This allows us to use the spread function in arrays with string data in them. Also to call that information as well. Please see lines 7 -14, Thank You. 
+    
+    
+   Spread in Object Literals
+    Copies properties from one object into another object literal. 
