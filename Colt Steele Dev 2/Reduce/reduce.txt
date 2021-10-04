@@ -1,1 +1,6 @@
 Reduce
+  this excutes a reducer function on each element of the array, resulting in a single value. 
+  reduce allows you to do multiple functions such as adding elements in an array, choosing min value, or even assigning an initial value to the array. See lines 1 -20 on how
+  reduce can be use to assign a min value and to add the function in the array. Reduce needs two paramaters with one to choose the array and the next to choose every element 
+  of that array. You then write a function stating what you want the reduce method to do. As in add up funds, return a value, multiply etc. Please refer to reduce doc and section 
+  22 lecture 229. 
