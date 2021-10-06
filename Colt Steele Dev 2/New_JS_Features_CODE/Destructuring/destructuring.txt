@@ -2,3 +2,21 @@ Destructuring
   A short, clean syntax to 'unpack': 
     Values from arrays
     Properites from objects into distinct variables. 
+  
+  Destructuring from an array involves the array being in order. Let's look at line 4 and 9 for reference. What destructuring from an array allows you to do is pull values from
+  the array and assign it to a variable. In that example the equation created was called const ['gold', 'silver', 'bronze' ...everyoneElse] = scores;. In a nutshell it assigned
+  the variables placed in const with each individual score in the order of the score in scores. the gold variable was attached to scores first value, silver was attached to scores
+  second value, and so on. The rest param was used to include everyone else by using the three dots. 
+  
+  
+  Destructuring from objects allows you to call object key and assign it under a new variable. Please see line 38. To assign an object key to a new variable you would have to 
+  refer to the key inside the object for example when desturctureing from an object we use curly braces rather than brackets and we call to the key for example in line 14 -23 you
+  have an object and to destructure it you would assign a new variable and say const { email } = user;. this will pull the email key in the object and assign it to a new variable
+  you created called email. Let's say you want to inturn change the variable name that you want to create for that object key. You would do it by saying const {email: newEmail} =
+  user. This will assign the object key to a new variable called newEmail. Just for argument sake lastly if you want to create a default value for your new variable. you can use
+  the = sign. For example const{email: newEmail = 'email'} = user; This would assign a default value to email. Please refer to lines 14 -42 for reference. 
+  
+  
+  Destructuring Params allows you to destructure objects premtively in the function prior to using those object keys. For example see lines 57 - 120. In a nutshell it allows you 
+  to call the keys in an object prior to using it. for example let's say you wanted to filter from an object and use it's value. you would say movies.filter({score}) => score >=
+  90. It would fileter out all movies that are greater than 90 and give you those values. If confused look into section 23 lecture 239 for more info.
