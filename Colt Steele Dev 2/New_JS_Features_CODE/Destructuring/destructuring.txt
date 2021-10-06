@@ -1,0 +1,4 @@
+Destructuring 
+  A short, clean syntax to 'unpack': 
+    Values from arrays
+    Properites from objects into distinct variables. 
