@@ -1,0 +1,9 @@
+Rest Param
+  Collects all remaining arguments into an actual array
+  This paramater uses 3 dots like the spread method except that it can be used to convert a paramater into an array. Please see lines 6 -14. The argument method doesn't work
+  with arrow functions and some array functions. When using the rest param it allows you to convert inputs to arrays without needing to put the actual array. 
+The arguments object 
+  is available inside every function. It's an array-like object that has a length property and does not have array methods like push/pop.
+  this method contains alll the arguments passed to the fuction. Also it is not avaialable inside of arrow functions. 
+  
+  
